@@ -4,7 +4,7 @@ RUN apt-get -y update && \
     apt-get -y install software-properties-common && \
     add-apt-repository ppa:bitcoin-unlimited/bu-ppa && \
     apt-get -y update && \
-    apt-get -y install bitcoind=0.12.1c
+    apt-get -y install bitcoind=0.12.1c-xenial2
 
 # Grab gosu for easy step-down from root
 ENV GOSU_VERSION 1.7
